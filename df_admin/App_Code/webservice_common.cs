@@ -8,6 +8,7 @@ using System.Xml;
 /// Summary description for webservice_common
 /// </summary>
 
+    // test 3 jan 
 using abacolla_gui;
 
 public class webservice_common : System.Web.Services.WebService
