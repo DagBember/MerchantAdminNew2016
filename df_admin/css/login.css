@@ -1,0 +1,148 @@
+﻿.container {
+  margin: auto;
+  width: 640px;
+}
+
+.login h1 {
+  width: 320px;
+  margin-top: 34px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 30px;
+  color: #757575;
+  }
+
+.login h2 {
+  margin-top: 0px;
+  margin-bottom: 44px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  line-height: 19px;
+  font-size: 14px;
+  color: #a1a1a1;
+  }
+
+.login p {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  line-height: 17px;
+  font-size: 12px;
+  color: #a1a1a1;
+  margin: 5px 0 0;
+}
+
+.login label {
+  position:  relative;
+  top: -42px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  line-height: 17px;
+  font-size: 12px;
+  color: #a1a1a1;
+  margin: 5px 0 0;
+}
+
+
+.login password {
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  line-height: 17px;
+  font-size: 12px;
+  color: #4a90e2;
+  }
+
+.login input {
+    border: 0px ; 
+}
+
+
+.login:before {
+  content: '';
+  margin-top: 76px;
+  margin-left: 28px;
+  width: 690px;
+  height:  400px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+}
+ 
+.login {
+  position: relative;
+  padding: 20px 20px 20px;
+  width: 310px;
+}
+
+.login input[type=text], .login input[type=password] {
+  width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 5px;
+    padding-top:  5px;
+}
+
+.login input[type=button] {
+    background-color: #257e62;
+    width: 114px;
+    height: 42px;
+    color: #FFFFFF;
+    float: right;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login input:focus {
+    border-bottom: 1px solid #4a90e2;
+}
+
+
+.login input[type=text]:focus + label, .login input[type=password]:focus + label {
+    color: #4a90e2;
+}
+
+.login p.remember_me {
+  /* float: left;
+  line-height: 31px; */
+}
+ 
+.login p.remember_me label {
+  font-size: 14px;
+  color: #a1a1a1;
+  cursor: pointer;
+}
+ 
+.login p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+
+.login-border {
+  margin: 20px 0;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+}
+ 
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+ 
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}

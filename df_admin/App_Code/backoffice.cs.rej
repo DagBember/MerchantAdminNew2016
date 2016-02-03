@@ -1,0 +1,14 @@
+diff a/df_admin/App_Code/backoffice.cs b/df_admin/App_Code/backoffice.cs	(rejected hunks)
+@@ -838,9 +838,9 @@
+             "and " +
+             "ua.timestamp < '" + sBeforeMonthDate + "' " +
+             "and s.shop_external_id = substring(ua.parameters for position(';' in ua.parameters)-position('baxid=' in ua.parameters)-6  from  position('baxid=' in parameters)+6) " + 
+-            "group by x_month,x_year, ua.sub_action, c.pincode_verified " + 
+-            "order by x_month,x_year, ua.sub_action, c.pincode_verified";
+-
++            "group by x_month,x_year, ua.sub_action, c.pincode_verified " +
++            "order by x_year,x_month, ua.sub_action, c.pincode_verified";
++        //            "order by x_month,x_year, ua.sub_action, c.pincode_verified";
+ 
+         GLOBAL_SQL_CONN conn = new GLOBAL_SQL_CONN(this);
+         
